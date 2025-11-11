@@ -12,7 +12,7 @@ file_types = [
 ]
 
 # Face Mapping Data
-souce_target_map: List[Dict[str, Any]] = [] # Stores detailed map for image/video processing
+source_target_map: List[Dict[str, Any]] = [] # Stores detailed map for image/video processing
 simple_map: Dict[str, Any] = {}             # Stores simplified map (embeddings/faces) for live/simple mode
 
 # Paths
@@ -26,7 +26,7 @@ keep_fps: bool = True
 keep_audio: bool = True
 keep_frames: bool = False
 many_faces: bool = False         # Process all detected faces with default source
-map_faces: bool = False          # Use souce_target_map or simple_map for specific swaps
+map_faces: bool = False          # Use source_target_map or simple_map for specific swaps
 color_correction: bool = False   # Enable color correction (implementation specific)
 nsfw_filter: bool = False
 
